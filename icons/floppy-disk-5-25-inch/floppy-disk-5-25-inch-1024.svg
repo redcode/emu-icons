@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1040px" height="1040px" viewBox="0 0 1040 1040" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>floppy-disk-5.25-inch</title>
+    <defs>
+        <filter x="-2.7%" y="-2.7%" width="105.4%" height="105.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#696969" offset="0%"></stop>
+            <stop stop-color="#414141" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#424242" offset="0%"></stop>
+            <stop stop-color="#242424" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Floppy-Disk-2.25-inch" transform="translate(8.000000, 8.000000)">
+            <g id="Icon" filter="url(#filter-1)" transform="translate(12.000000, 12.000000)">
+                <path d="M500,20 C765.09668,20 980,234.90332 980,500 C980,765.09668 765.09668,980 500,980 C234.90332,980 20,765.09668 20,500 C20,234.90332 234.90332,20 500,20 Z M500,395 C442.010101,395 395,442.010101 395,500 C395,557.989899 442.010101,605 500,605 C557.989899,605 605,557.989899 605,500 C605,442.010101 557.989899,395 500,395 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+                <path d="M984,0 C992.836556,-1.623249e-15 1000,7.163444 1000,16 L1000,227 L968,227 L968,276 L1000,276 L1000,984 C1000,992.836556 992.836556,1000 984,1000 L615,1000 L614.99645,999.693144 C614.833428,992.655192 609.077135,987 602,987 C594.820298,987 589,992.820298 589,1000 L589,1000 L411,1000 L410.99645,999.693144 C410.833428,992.655192 405.077135,987 398,987 C390.820298,987 385,992.820298 385,1000 L385,1000 L16,1000 C7.163444,1000 1.47519377e-14,992.836556 0,984 L0,16 C-1.082166e-15,7.163444 7.163444,1.52930207e-14 16,0 L984,0 Z M500,710 C474.042617,710 453,731.042617 453,757 L453,757 L453,924 C453,949.957383 474.042617,971 500,971 C525.957383,971 547,949.957383 547,924 L547,924 L547,757 C547,731.042617 525.957383,710 500,710 Z M500,350 C417.157288,350 350,417.157288 350,500 C350,582.842712 417.157288,650 500,650 C582.842712,650 650,582.842712 650,500 C650,417.157288 582.842712,350 500,350 Z M693,525 C680.297451,525 670,535.297451 670,548 C670,560.702549 680.297451,571 693,571 C705.702549,571 716,560.702549 716,548 C716,535.297451 705.702549,525 693,525 Z" id="Combined-Shape" fill="#1E2220"></path>
+                <path d="M500,375 C569.035594,375 625,430.964406 625,500 C625,569.035594 569.035594,625 500,625 C430.964406,625 375,569.035594 375,500 C375,430.964406 430.964406,375 500,375 Z M500,395 C442.010101,395 395,442.010101 395,500 C395,557.989899 442.010101,605 500,605 C557.989899,605 605,557.989899 605,500 C605,442.010101 557.989899,395 500,395 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+            </g>
+            <rect id="Limits" x="0" y="0" width="1024" height="1024"></rect>
+        </g>
+    </g>
+</svg>
